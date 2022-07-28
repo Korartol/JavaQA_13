@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a4594fd-951e-4611-8147-786d60e4eefc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Smartphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,62 +53,64 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductManagerTest">
-    <configuration name="ProductManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SmartphoneTest.testSmartphoneName">
+    <configuration name="BookTest.testBookAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaQA_13" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductManagerTest.shouldAllProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaQA_13" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductManagerTest" />
-      <option name="METHOD_NAME" value="shouldAllProduct" />
+      <option name="MAIN_CLASS_NAME" value="BookTest" />
+      <option name="METHOD_NAME" value="testBookAuthor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManagerTest.shouldSearchProductYes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookTest.testBookAuthorMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaQA_13" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductManagerTest" />
-      <option name="METHOD_NAME" value="shouldSearchProductYes" />
+      <option name="MAIN_CLASS_NAME" value="BookTest" />
+      <option name="METHOD_NAME" value="testBookAuthorMore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManagerTest.shouldSearchProductYes2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookTest.testBookName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaQA_13" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductManagerTest" />
-      <option name="METHOD_NAME" value="shouldSearchProductYes2" />
+      <option name="MAIN_CLASS_NAME" value="BookTest" />
+      <option name="METHOD_NAME" value="testBookName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmartphoneTest.testSmartphoneManufacture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaQA_13" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="SmartphoneTest" />
+      <option name="METHOD_NAME" value="testSmartphoneManufacture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartphoneTest.testSmartphoneName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaQA_13" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmartphoneTest" />
+      <option name="METHOD_NAME" value="testSmartphoneName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductManagerTest" />
-        <item itemvalue="JUnit.ProductManagerTest.shouldSearchProductYes2" />
-        <item itemvalue="JUnit.ProductManagerTest.shouldAllProduct" />
-        <item itemvalue="JUnit.ProductRepositoryTest" />
-        <item itemvalue="JUnit.ProductManagerTest.shouldSearchProductYes" />
+        <item itemvalue="JUnit.SmartphoneTest.testSmartphoneName" />
+        <item itemvalue="JUnit.SmartphoneTest.testSmartphoneManufacture" />
+        <item itemvalue="JUnit.BookTest.testBookName" />
+        <item itemvalue="JUnit.BookTest.testBookAuthorMore" />
+        <item itemvalue="JUnit.BookTest.testBookAuthor" />
       </list>
     </recent_temporary>
   </component>
