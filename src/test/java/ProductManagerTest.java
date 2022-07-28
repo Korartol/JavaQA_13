@@ -9,9 +9,9 @@ public class ProductManagerTest {
 
 
     // добавленые продукты
-    Product product1 = new Book(1, "book", 100, "title1", "author1");
+    Product product1 = new Book(1, "bookk", 100, "title1", "author1");
     Product product2 = new Book(2,"book2", 200, "title2", "author2");
-    Product product3 = new Book(3, "book", 300, "title3", "author4");
+    Product product3 = new Book(3, "bookk", 300, "title3", "author4");
     Product product4 = new Book(4, "book4", 400, "title4", "author4");
     Product product5 = new Smartphone(5, "smartphone1", 500, "pro max", "apple");
 
@@ -48,7 +48,7 @@ public class ProductManagerTest {
     public void shouldSearchProductYes2() {
 
         Product[] expected = {product1, product3};
-        Product[] actual = manager.searchBy("book");
+        Product[] actual = manager.searchBy("bookk");
 
         Assertions.assertArrayEquals(expected, actual);
     }

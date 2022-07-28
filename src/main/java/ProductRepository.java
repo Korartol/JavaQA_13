@@ -1,9 +1,9 @@
 public class ProductRepository {
     private Product[] products = new Product[0];
 
-    public Product[] getProducts() {
-        return products;
-    }
+//    public Product[] getProducts() {
+//        return products;
+//    }
 
      // метод добавления
     public void save(Product product) {
@@ -16,14 +16,14 @@ public class ProductRepository {
         products = tmp;
     }
 
-    public Product[] findAll() {
-        Product[] all = getProducts();
-        Product[] list = new Product[all.length];
-        for (int i = 0; i < list.length; i++) {
-            list[i] = all[i];
-        }
-        return list;
-    }
+//    public Product[] findAll() {
+//        Product[] all = getProducts();
+//        Product[] list = new Product[all.length];
+//        for (int i = 0; i < list.length; i++) {
+//            list[i] = all[i];
+//        }
+//        return list;
+//    }
     // метод удаления
     public void removeById(int id) {
         Product[] tmp = new Product[products.length - 1];  // создаем временный массив на 1 меньше прежнего

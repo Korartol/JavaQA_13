@@ -23,7 +23,7 @@ public class ProductManager {
     // МЕТОД ПОИСКА
     public Product[] searchBy(String text) {
         Product[] result = new Product[0]; // тут будем хранить подошедшие запросу продукты
-        for (Product product : repo.findAll()) {   // в ДЗ указано repository.findAll()
+        for (Product product : repo.getProduct()) {   // в ДЗ указано repository.findAll()
             if (matches(product, text)) {
                 // "добавляем в конец" массива result продукт product
                 Product[] tmp = new Product[result.length + 1];
